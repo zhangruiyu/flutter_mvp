@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mvp/base_page_presenter.dart';
-import 'package:mvp/factory/PresenterFactory.dart';
-import 'package:mvp/mvps.dart';
+import 'package:flutter_mvp/base_page_presenter.dart';
+import 'package:flutter_mvp/factory/PresenterFactory.dart';
+import 'package:flutter_mvp/mvps.dart';
 
 class BasePageState<T extends StatefulWidget, V extends BasePageStatePresenter>
     extends State<T> implements IMvpView {

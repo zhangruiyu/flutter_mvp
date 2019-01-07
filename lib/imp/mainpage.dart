@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:mvp/base_page_presenter.dart';
-import 'package:mvp/base_page_state.dart';
-import 'package:mvp/base_route.dart';
+import 'package:flutter_mvp/base_page_presenter.dart';
+import 'package:flutter_mvp/base_page_state.dart';
+import 'package:flutter_mvp/base_route.dart';
 
 class MainPage extends BasePageRoute {
   @override
