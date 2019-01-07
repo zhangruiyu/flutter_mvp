@@ -59,7 +59,7 @@ class MainPageState extends BasePageState<MainPage, MainPagePresenter> {
   }
 }
 
-class MainPagePresenter extends BasePageStatePresenter<MainPageState> {
+class MainPagePresenter extends BasePagePresenter<MainPageState> {
   @override
   void initState() {
     super.initState();

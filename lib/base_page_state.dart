@@ -3,7 +3,7 @@ import 'package:flutter_mvp/base_page_presenter.dart';
 import 'package:flutter_mvp/factory/PresenterFactory.dart';
 import 'package:flutter_mvp/mvps.dart';
 
-class BasePageState<T extends StatefulWidget, V extends BasePageStatePresenter>
+class BasePageState<T extends StatefulWidget, V extends BasePagePresenter>
     extends State<T> implements IMvpView {
   V presenter;
 

@@ -1,6 +1,6 @@
 import 'package:flutter_mvp/mvps.dart';
 
-class BasePageStatePresenter<V extends IMvpView> extends IPresenter {
+class BasePagePresenter<V extends IMvpView> extends IPresenter {
   V view;
   @override
   void initState() {}
