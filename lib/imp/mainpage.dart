@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvp/base_page_presenter.dart';
 import 'package:flutter_mvp/base_page_state.dart';
 import 'package:flutter_mvp/base_route.dart';
+import 'package:flutter_mvp/imp/main_page_presenter.dart';
 
 class MainPage extends BasePageRoute {
   @override
@@ -56,17 +56,5 @@ class MainPageState extends BasePageState<MainPage, MainPagePresenter> {
   void a() {
     print("aaaa");
     presenter.b();
-  }
-}
-
-class MainPagePresenter extends BasePagePresenter<MainPageState> {
-  @override
-  void initState() {
-    super.initState();
-    view.a();
-  }
-
-  void b() {
-    print("bbbb");
   }
 }
