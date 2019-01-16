@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_mvp/base_page_presenter.dart';
+import 'package:flutter_mvp/base/base_page_presenter.dart';
 import 'package:flutter_mvp/mvps.dart';
 import 'package:flutter_mvp/presenter_factory.dart';
 

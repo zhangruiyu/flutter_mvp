@@ -1,4 +1,4 @@
-import 'package:flutter_mvp/i_lifecycle.dart';
+import 'package:flutter_mvp/base/i_lifecycle.dart';
 
 abstract class IPresenter extends ILifecycle {}
 

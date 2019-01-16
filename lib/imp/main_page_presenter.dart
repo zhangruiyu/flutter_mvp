@@ -1,5 +1,5 @@
-import 'package:flutter_mvp/base_page_presenter.dart';
-import 'package:flutter_mvp/imp/mainpage.dart';
+import 'package:flutter_mvp/base/base_page_presenter.dart';
+import 'package:flutter_mvp/imp/main_page.dart';
 
 class MainPagePresenter extends BasePagePresenter<MainPageState> {
   @override
